@@ -1,0 +1,50 @@
+.icons
+{
+    font-size: 60px;
+    color: orange;
+    margin-bottom: 10px;
+}
+.txt1
+{
+    font-weight: bold;
+}
+.vidcontainer
+{
+    height: 500px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.conbgimg{
+    height: 1100px;
+    background-image: url("https://i.stack.imgur.com/43ecT.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+.conbgtxt
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+}
+.txtc{
+    font-size: 40px;
+    color: lightgrey;
+    font-style: italic;
+}
+.txtca{
+    color: gray;
+}
+.txtcb{
+    font-size: 18px;
+    font-weight:400;
+}
+.txtcc{
+    color: gray;
+}
+.btncc{
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;
+}

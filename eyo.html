@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+
+    <style>
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+            .eyoimage {
+                width: 400px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- html forms -->
+    <form action="search.php" method="post" autocomplete="on" novalidate>
+       <label for="firstName">First Name</label>
+       <input type="text" id="firstName" name="firstName" required>
+       <label for="lastName">Last Name</label>
+       <input type="text" id="lastName" name="lastName" required>
+       <label for="genderMale">Male</label>
+       <input type="radio" value="Male" id="genderMale" name="gender" required>
+       <label for="genderFemale">Female</label>
+       <input type="radio" value="Female" id="genderFemale" name="gender" required>
+       <label for="graduate">Are you a graduate?</label>
+       <input type="checkbox" name="graduate" id="graduate" value="graduate">
+
+       <input type="submit" value="Submit">
+    </form>
+    <p>
+        @media rule
+
+        Notes on GET:x
+
+            Appends the form data to the URL, in name/value pairs
+            NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+            The length of a URL is limited (2048 characters)
+            Useful for form submissions where a user wants to bookmark the result
+            GET is good for non-secure data, like query strings in Google
+        
+        Notes on POST:
+
+            Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+            POST has no size limitations, and can be used to send large amounts of data.
+            Form submissions with POST cannot be bookmarked
+        
+        Tip: Always use POST if the form data contains sensitive or personal information!
+
+
+    </p>
+    <br>
+    <br>
+    <img src="hri blue.jpg" alt="" class="eyoimage">
+
+    <iframe src="https://www.lamborghini.com/en-en" frameborder="0" height="500px" width="500px" title="Google Site" ></iframe>
+
+</body>
+</html>
